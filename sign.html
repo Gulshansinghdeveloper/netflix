@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+.container{
+    margin:3% 40%;
+    width: 20%;
+    padding: 20px;
+    height: 450px;
+    background-color:rgba(0, 0, 0, 0.635);
+    color: white;
+}
+.btn button{ margin-top: 30px;
+    background-color: red;
+    width: 100%;
+    padding: 3%;
+    color: whitesmoke;
+    font-size:20px ;
+}
+input{
+    width: 90%;
+    padding:10px;
+    font-size:20px ;
+    margin-top: 20px;
+    background-color:rgb(88, 84, 84) ;
+    color: white;
+    border: none;
+
+    
+}
+
+.bg{
+    height:  100%;
+    width: 100%;
+    padding: 1px;
+    /* padding: 10px; */
+    /* height:100vh; */
+    background-image: url('Netflix-Background-1-1140x600.jpg');
+}
+#imge{
+    width: 170px;
+    margin: 50px;
+
+}.footer{
+    background-color: rgba(0, 0, 0, 0.708);
+    color:rgb(179, 174, 174);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+/* .table{
+     text-decoration-line:underline ;
+    display: flex;
+    justify-content: space-around;
+
+} */
+.table td{
+    padding: 10px 90px;
+    text-decoration-line:underline ;
+    
+}
+ a{
+    color: rgb(190, 188, 188);
+    text-decoration: none;
+    text-align: left;
+}
+
+</style>
+
+<body>
+<div class="bg" >
+    <img src="logo_-removebg-preview.png" alt="" id="imge">
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <hr>
+      <!-- <label for="email"><b>Email</b></label> -->
+      <input type="text" placeholder="Enter Email" name="email" required><br>
+
+      <!-- <label for="psw"><b>Password</b></label> -->
+      <input type="password" placeholder="Enter Password" name="psw" required><br>
+
+      <label>
+        Remember me</label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> 
+      <p>This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#" style="color:dodgerblue"> Learn more.</a>   </p>
+
+      <div class="btn">
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+<div class="line"></div>
+    <div class="footer">
+        <a href="">Questions? Call 000-800-919-1694</a>
+        <table class="table"  style="width: 80%; " cellspacing="10"   >
+        <tr>
+            <td >FAQ</td>
+            <td>Gift Card Items</td>
+            <td>Help Center</td>
+        </tr>
+        <tr>
+            <td>Account</td>
+            <td>Media Center</td>
+            <td>Investor Relations</td>
+        </tr><tr>
+            <td>Jobs</td>
+            <td>Ways to Watch</td>
+            <td>Terms Of use</td>
+        </tr><tr>
+            <td>
+            <select name="" id="option">
+                <option value="English">English</option>
+                <option value="Hindi">Hindi</option>
+            </select>
+        </td>
+        </tr>
+        <tr>
+            <td><h3>Netflix india</h3></td>
+        </tr>
+        
+</div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>

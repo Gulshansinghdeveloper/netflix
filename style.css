@@ -1,0 +1,264 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-banner{
+    width: 100%;
+    height:100vh;
+    background-image: url('Netflix-Background-1-1140x600.jpg');
+}
+#logo{
+    width: 170px;
+}
+.nav{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    padding: 10px;
+}
+.btn button{
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-size:18px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+
+}
+#h1{
+    font-size:48px;
+    padding: 20px;
+    font-family: Arial black;
+    /* font-weight: bolder; */
+    
+}
+pre{
+    padding: 10px;
+    font: 30px;
+}
+#option{
+    margin-right: 20px;
+    background-color: transparent;
+    font-size: 18px;
+    color: white;
+    width: 100px;
+}
+.text  {
+    padding: 10px;
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-family: Arial,  black;}
+ .text input{
+    padding: 10px;
+    width: 400px;
+    height:40px;
+    font-size: 14px;
+    border:3px;
+    color: rgb(197, 200, 200);
+    border-color:rgb(244, 223, 223) ;
+    border-radius: 4px;
+    background-color:rgba(5, 1, 1, 0.74);
+
+
+} 
+#button1{
+    background-color: rgb(229, 9, 20);
+    border: none;
+    border-radius: 4px;
+    margin-left:5px;
+}
+#button1 a{
+    color: white;
+    width: 200px;
+    /* background-color: red; */
+    padding: 20px;
+    font-size:20px ;
+
+}
+
+.second-section{
+    width: 100%;
+    height:400px;
+    background-color: rgba(54, 53, 53, 0.877);
+}
+.input-section{
+    /* position: absolute; */
+    margin:10px;
+    display: flex;
+    justify-content:center;
+    padding: 10px;   
+    /* height: 20px; */
+}
+.line{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(66, 64, 64);
+    }
+.content1{
+    width: 100%;
+    height:10%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-family: arial black
+}
+
+.text-sec{
+    padding: 150px;
+
+}
+.text-sec h1{
+    padding-bottom: 30px;
+    font-size:30px ;
+
+}
+.content2{
+    width: 100%;
+    height:10%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-family: arial black
+
+}
+.content2 img{
+width: 300px;
+padding:0px 200px;}
+.content3{
+    width: 100%;
+    height:10%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-family: arial black;
+
+}
+.option{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:50px 150px ;
+    
+}
+.opt:hover{
+    background-color: rgb(135, 135, 135);
+}
+.opt{
+    background-color: rgb(58, 58, 58);
+    padding: 20px;
+    margin: 10px;
+    display: FLEX;
+    justify-content: space-between;
+    font-size:25px ;
+}
+.input-2{
+    background-color: black;
+}
+.second-font{
+    font-family:helvetica;
+}
+.input-2 input{
+    width: 300px;
+    color: rgb(197, 200, 200);
+    border: 3px;
+    border-color:rgb(244, 223, 223) ;
+    background-color:rgb(57, 54, 54);
+}
+.footer{
+    background-color: black;
+    color:rgb(179, 174, 174);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+/* .table{
+     text-decoration-line:underline ;
+    display: flex;
+    justify-content: space-around;
+
+} */
+.table td{
+    padding: 10px 90px;
+    text-decoration-line:underline ;
+    
+}
+ a{
+    color: rgb(190, 188, 188);
+    text-decoration: none;
+    text-align: left;
+}
+.lang{
+    background-color: black;
+    color: rgb(128, 125, 131);
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header img{
+    width: 170px;
+    padding: 5px;
+}
+#sign{
+    background-color: white;
+    color: grey;
+    font-size:20px;
+     margin: 10px;
+}
+hr{
+    color:rgb(226, 225, 225);
+}
+.form{
+    /* text-align: center; */
+    width: 50%;
+    padding:20px;
+    margin:1% 33%;
+}
+.form input{
+    width: 400px;
+    padding: 20px ;
+    display: block;
+    margin: 10px;
+}
+.button2{
+    width: 450px;
+    padding: 20px;
+    background-color: rgb(229, 9, 20);
+    border: none;
+    color: white;
+    font-size:20px;
+    margin: 10px;
+    display: block;
+}
+.form a{
+    margin: 10px;
+    color: rgb(0, 94, 255);
+
+}
+.btn{
+    padding: 10px;
+    width: 400px;
+    height:60px;
+    font-size: 14px;
+}
+#inputsec{
+    height: 50px;
+    
+}
+#inputsec input{
+    width: 300px;
+    background-color: rgb(40, 41, 41);
+    border: none;
+    padding: 10px;
+}
+/* //sign form */
